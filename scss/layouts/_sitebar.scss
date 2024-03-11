@@ -1,0 +1,43 @@
+.sitebar {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 15%;
+    height: 100vh;
+    background-color: $bg-danger;
+    font-family: sans-serif;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 550px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                border-radius: 8px;
+                padding: 8px;
+
+                &:hover,
+                &:hover a {
+                    background-color: #fff;
+                    color: $bg-danger;
+                }
+
+                a {
+                    color: aliceblue;
+                }
+            }
+        }
+
+        .sitebar_contact {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+
+}

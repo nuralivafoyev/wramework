@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS FRAMEWORK</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+
+  <header class="bg-danger">
+
+    <div class="container">
+
+      <nav class="flex justify-between item-center">
+
+        <a class="nav_logo" href="#">VAFOYEV'S</a>
+
+        <div class="search">
+          <input type="search" id="search" required role="region">
+          <label for="search"> Search</label>
+          <i class="bx bx-search"></i>
+        </div>
+
+        <button class="header-btn">
+          <i class='bx bx-circle'></i>
+        </button>
+      </nav>
+
+    </div>
+  </header>
+
+  <div class="sitebar">
+
+    <div class="container">
+
+      <ul>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#inputs">Inputs</a></li>
+      </ul>
+
+      <ul class="sitebar_contact">
+        <li><a href="#">Contact us</a></li>
+        <li><a href="tel:+998938045775">+998938045775</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="container p">
+    <div id="buttons">
+      <h1>Buttons</h1>
+      <button class="btn outlined">Outlined</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-danger">Danger</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-info">Info</button>
+      <button class="btn btn-dark">Dark</button>
+
+
+      <div class="wrapper bg-danger text-white rounded-4 my-8 codes">
+        <pre>
+            <code>
+             &lt;button class="btn btn-primary"&gt; Primary &lt;/button &gt;
+             &lt;button class="btn btn-secondary"&gt; Secondary &lt;/button&gt;
+             &lt;button class="btn btn-success"&gt; Success &lt;/button&gt;
+             &lt;button class="btn btn-danger"&gt; Danger &lt;/button&gt;
+             &lt;button class="btn btn-info"&gt;Info&lt;/button&gt;
+             &lt;button class="btn btn-dark"&gt;Dark&lt;/button&gt;
+            </code>
+            </pre>
+      </div>
+    </div>
+
+
+    <div id="inputs">
+      
+      <h1>Inputs</h1>
+
+      <div class="flexw">
+        <input type="text" class="input" placeholder="Enter smth text..." />
+        <input type="text" class="input input-success" placeholder="Success" />
+        <input type="text" class="input input-error" placeholder="Error" />
+        <input type="text" class="input input-warning" placeholder="Warning" />
+        <input type="text" class="input input-info" placeholder="Info" />
+      </div>
+
+
+
+
+      <div class="wrapper bg-danger text-white rounded-4 my-8 codes">
+        <pre>
+          <code>
+            &lt;input type="text" class="input" placeholder="Enter smth text..." /&gt;
+            &lt;input type="text" class="input input-success" placeholder="Success" /&gt;
+            &lt;input type="text" class="input input-error" placeholder="Error" /&gt;
+            &lt;input type="text" class="input input-warning" placeholder="Warning" /&gt;
+            &lt;input type="text" class="input input-info" placeholder="Info" /&gt;
+          </code>
+        </pre>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
